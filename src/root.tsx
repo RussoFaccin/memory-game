@@ -20,8 +20,10 @@ export default component$(() => {
         <RouterHead />
       </head>
       <body lang="en">
-        <RouterOutlet />
-        <ServiceWorkerRegister />
+        <div id="root">
+          <RouterOutlet />
+          <ServiceWorkerRegister />
+        </div>
       </body>
     </QwikCityProvider>
   );
